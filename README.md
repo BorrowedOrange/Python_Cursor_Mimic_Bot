@@ -24,7 +24,7 @@ To execute a recorded gesture: <br>
 3. Paste the gesture as an argument to the do_gesture() function in the script. <br>
 4. Run the script using python mouse_gesture_bot.py. 
 <br>
-### Note: 
+## Note: 
 The do_gesture() function assumes that the recorded gesture only contains mouse movements and clicks. <br>
 If the recorded gesture also includes other keyboard or mouse events, you will need to modify the function accordingly. 
 <br>

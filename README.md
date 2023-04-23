@@ -1,24 +1,34 @@
-# Python_Cursor_Mimic_Bot
-Mouse Gesture Bot
+# Python Cursor Mimicing Bot
+Mouse Gesture Bot <br>
 This is a Python script that allows you to record and execute mouse gestures using the PyAutoGUI library.
+<br>
 
-Requirements
-Python 3.x
+## Requirements<br>
+Python 3.x <br>
 PyAutoGUI library (you can install it using pip install pyautogui)
-Usage
-To record a mouse gesture:
+<br>
 
-Run the script using python mouse_gesture_bot.py.
-Move the mouse to record the desired gesture.
-Click the mouse to perform clicks during the gesture (optional).
-Press the esc key to stop recording the gesture.
-To execute a recorded gesture:
+## Usage
+To record a mouse gesture: <br>
 
-Open the mouse_gesture_bot.py script in a text editor.
-Copy the recorded gesture from the gesture list in the script.
-Paste the gesture as an argument to the do_gesture() function in the script.
-Run the script using python mouse_gesture_bot.py.
-Note: The do_gesture() function assumes that the recorded gesture only contains mouse movements and clicks. If the recorded gesture also includes other keyboard or mouse events, you will need to modify the function accordingly.
+1. Run the script using python mouse_gesture_bot.py. <br>
+2. Move the mouse to record the desired gesture. <br>
+3. Click the mouse to perform clicks during the gesture (optional). <br>
+4. Press the esc key to stop recording the gesture. 
+<br>
 
-Disclaimer
-Please use this script responsibly and ethically. Do not use it to automate tasks that may violate the terms of service of any software or website. The author of this script is not responsible for any damages or legal issues caused by its use.
+To execute a recorded gesture: <br>
+
+1. Open the mouse_gesture_bot.py script in a text editor. <br>
+2. Copy the recorded gesture from the gesture list in the script. <br>
+3. Paste the gesture as an argument to the do_gesture() function in the script. <br>
+4. Run the script using python mouse_gesture_bot.py. 
+<br>
+## Note: 
+The do_gesture() function assumes that the recorded gesture only contains mouse movements and clicks. <br>
+If the recorded gesture also includes other keyboard or mouse events, you will need to modify the function accordingly. 
+<br>
+
+## Disclaimer 
+Please use this script responsibly and ethically. Do not use it to automate tasks that may violate the terms of service of any software or website. <br>
+The author of this script is not responsible for any damages or legal issues caused by its use. <br>

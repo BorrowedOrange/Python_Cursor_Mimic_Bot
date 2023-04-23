@@ -2,11 +2,11 @@
 Mouse Gesture Bot
 This is a Python script that allows you to record and execute mouse gestures using the PyAutoGUI library.
 
-##Requirements
+Requirements
 Python 3.x
 PyAutoGUI library (you can install it using pip install pyautogui)
 
-##Usage
+Usage
 To record a mouse gesture:
 
 1.Run the script using python mouse_gesture_bot.py.
@@ -23,5 +23,5 @@ To execute a recorded gesture:
 
 Note: The do_gesture() function assumes that the recorded gesture only contains mouse movements and clicks. If the recorded gesture also includes other keyboard or mouse events, you will need to modify the function accordingly.
 
-##Disclaimer
+Disclaimer
 Please use this script responsibly and ethically. Do not use it to automate tasks that may violate the terms of service of any software or website. The author of this script is not responsible for any damages or legal issues caused by its use.
